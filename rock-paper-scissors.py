@@ -28,9 +28,9 @@ def execute3():
     label1 = Label(root, text=choice)
     label1.grid(row=0, column=2)
 
-button1 = Button(root, text="rock", command=execute1)
-button2 = Button(root, text="paper", command=execute2)
-button3 = Button(root, text="scissors", command=execute3)
+button1 = Button(root, text="Rock", command=execute1)
+button2 = Button(root, text="Paper", command=execute2)
+button3 = Button(root, text="Scissors", command=execute3)
 
 button1.grid(row=0, column=0)
 button2.grid(row=1, column=0)
